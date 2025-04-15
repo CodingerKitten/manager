@@ -1,10 +1,8 @@
 {
   "name": "manager-registration-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,11 +11,8 @@
   "description": "",
   "dependencies": {
     "bcryptjs": "^3.0.2",
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "mongoose": "^8.13.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
+    "validate.js": "^0.13.1"
   }
 }
